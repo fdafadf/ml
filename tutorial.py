@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def example_1:
+def example_1():
   data = np.array([
     [0.1, 0.15],
     [0.2, 0.2],
