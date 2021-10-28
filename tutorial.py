@@ -1,6 +1,19 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+def example_1:
+  data = np.array([
+    [0.1, 0.15],
+    [0.2, 0.2],
+    [0.3, 0.32],
+    [0.5, 0.47],
+    [0.6, 0.6],
+    [0.9, 0.9],
+  ])
+  plt.scatter(*data.T, color='green')
+  plt.plot([0, 1], [0.1, 0.5])
+  plt.show()
+
 def show_linear_regresion_error_lines(data):
   a = 0.1
   b = 0.4
